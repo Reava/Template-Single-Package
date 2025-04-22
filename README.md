@@ -1,8 +1,14 @@
-# VPM Package Template
+# VPM Package Template (Single)
 
 Starter for making Packages, including automation for building and publishing them.
 
 Once you're all set up, you'll be able to push changes to this repository and have .zip and .unitypackage versions automatically generated, and a listing made which works in the VPM for delivering updates for this package. If you want to make a listing with a variety of packages, check out our [template-package-listing](https://github.com/vrchat-community/template-package-listing) repo.
+
+## Why this fork?
+
+* This package requires you to follow a handful of steps and read through instructions at least once, please do it, **they are not the exact same as the default VRChat template!**
+* This fork was made to allow myself and others to make VPM packages without having to spin a new project per package, which is annoying for small, sometimes even single file packages.
+* With this, you can setup a new package in your existing dev project within a minute and get working straight on things without having to import and update various SDKs / dependencies.
 
 ## ▶ Getting Started
 
@@ -11,11 +17,11 @@ to start a new GitHub project based on this template.
   * Choose a fitting repository name and description.
   * Set the visibility to 'Public'. You can also choose 'Private' and change it later.
   * You don't need to select 'Include all branches.'
-* Clone this repository locally using Git.
+* Clone this repository locally using Git into an adequately named package folder in the unity project of your choice (for ex: "com.yourname.template")
   * If you're unfamiliar with Git and GitHub, [visit GitHub's documentation](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources) to learn more.
-* Add the folder to Unity Hub and open it as a Unity Project.
-* After opening the project, wait while the VPM resolver is downloaded and added to your project.
-  * This gives you access to the VPM Package Maker and Package Resolver tools.
+* Open the new folder in your file explorer
+* Edit the source.json and package.json file with any text editor of your choice to fill in the info
+* Edit the lines 7 to 9 in release.yml in the .GitHub/workflows folder of your new package with the same info
 
 ## 🚇 Migrating Assets Package
 Full details at [Converting Assets to a VPM Package](https://vcc.docs.vrchat.com/guides/convert-unitypackage)
