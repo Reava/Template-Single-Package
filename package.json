@@ -1,19 +1,19 @@
 {
-  "name": "com.yourname.template",
+  "name": "chirp.reava.template",
   "displayName": "template package",
   "version": "1.0.0",
   "unity": "2022.3",
   "description": "A fork of VRChat's package template that allows setting up multiple packages in a single project.",
   "author": {
-    "name": "YourName",
-    "email": "YourName@gmail.com",
-    "url": "https://github.com/YourName"
+    "name": "Reava_",
+    "email": "reava.vr@gmail.com",
+    "url": "https://github.com/Reava/"
   },
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.worlds": ">=3.7.4"
   },
-    "legacyFolders": {
-        "Assets\\youroldfolder": ""
-    }
+  "legacyFolders": {
+    "Assets\\Reava_\\template": ""
+  }
 }
