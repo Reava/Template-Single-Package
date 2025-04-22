@@ -2,7 +2,7 @@
 
 Starter for making Packages, including automation for building and publishing them.
 
-Once you're all set up, you'll be able to push changes to this repository and have .zip and .unitypackage versions automatically generated, and a listing made which works in the VPM for delivering updates for this package. If you want to make a listing with a variety of packages, check out our [template-package-listing](https://github.com/vrchat-community/template-package-listing) repo.
+Once you're all set up, you'll be able to push changes to this repository and have .zip and .unitypackage versions automatically generated, and a listing made which works in the VPM for delivering updates for this package. If you want to make a listing with a variety of packages, check out VRChat's [template-package-listing](https://github.com/vrchat-community/template-package-listing) repo.
 
 ## Why this fork?
 
