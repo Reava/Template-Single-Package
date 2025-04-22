@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 env:
-  releasePrefix: "Package name"
-  packageName: "com.yourname.template"
-  packagePath: "Packages/com.yourname.template"
+  releasePrefix: "Template Package"
+  packageName: "com.reava.template"
+  packagePath: "Packages/com.reava.template"
 
 jobs:
   build:
