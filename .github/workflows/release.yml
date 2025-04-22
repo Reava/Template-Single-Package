@@ -5,8 +5,8 @@ on:
 
 env:
   releasePrefix: "Template Package"
-  packageName: "com.reava.template"
-  packagePath: "Packages/com.reava.template"
+  packageName: "chirp.reava.template"
+  packagePath: "Packages/chirp.reava.template"
 
 jobs:
   build:

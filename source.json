@@ -1,17 +1,17 @@
 {
-    "name":"Template Package",
-    "id":"com.reava.template",
+    "name":"Package Temaplte",
+    "id":"chirp.reava.template",
     "author":{
-        "name":"Reava",
+        "name":"Reava_",
     	"email": "reava.vr@gmail.com",
     	"url": "https://github.com/Reava/"
     },
-    "description":"A fork of VRChat's package template that allows setting up multiple packages in a single project. ",
+    "description":"A fork of VRChat's package template that allows setting up multiple packages in a single project.",
     "infoLink":{
         "url":"https://github.com/Reava/Template-Single-Package/blob/main/README.md",
         "text":"How to Use (Readme)"
     },
-    "url":"https://github.com/Reava/Template-Single-Package/index.json",
+    "url":"https://reava.github.io/Template-Single-Package/index.json",
     "githubRepos":[
         "Reava/Template-Single-Package"
     ]
