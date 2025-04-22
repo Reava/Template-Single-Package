@@ -30,6 +30,7 @@ Full details at [Converting Assets to a VPM Package](https://vcc.docs.vrchat.com
 ## ✏️ Working on Your Package
 
 * Delete the "Runtime/Readme.txt" file or reuse it for your own package.
+* If you are not making scripts or an avatar package, remove the U# assembly definition and the definitions in the package assembly.
 * Update the  file in the "Packages" directory to include your package.
 * When you're ready, commit and push your changes.
 * Once you've set up the automation as described below, you can easily publish new versions.
@@ -59,3 +60,13 @@ You can edit the file 'Website/ColorScheme.css' and remove the comments on the t
 * If you want to customize your buttons color on your default VRChat template, simply import [ColorScheme.css](https://github.com/Reava/Template-Single-Package/blob/main/Website/ColorScheme.css) to your Website folder, then add the line ```<link rel="stylesheet" href="ColorScheme.css">``` in the header of the 'Website/index.html' file of your own package!
 
 The action which rebuilds the listing also publishes a landing page. The source for this page is in `Website/index.html`. The automation system uses [Scriban](https://github.com/scriban/scriban) to fill in the objects like `{{ this }}` with information from the latest release's manifest, so it will stay up-to-date with the name, id and description that you provide there. You are welcome to modify this page however you want - just use the existing `{{ template.objects }}` to fill in that info wherever you like. The entire contents of your "Website" folder are published to your GitHub Page each time.
+
+## Credits & Thanks
+
+Obviously if you know me, you know I barely did anything here beside make it nice and tidy and put it all together for others.
+* [Tapghoul](https://tapghoul.dev/) For the help with figuring out how to make it work and learn how to setup that stuff in the first place / etc.
+* [Rrazgriz](https://github.com/rrazgriz) For making a similar repo structure that made me want to make this in the first place
+* And of course VRChat for their [Package template](https://github.com/vrchat-community/template-package) and the community's work
+* I did figure out and make the color scheme CSS file, file structure, nice instructions for the new way to do it, base files to make it faster and so on.
+
+  Enjoy :3
