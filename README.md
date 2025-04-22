@@ -1,14 +1,14 @@
 # VPM Package Template (Single)
 
 Starter for making Packages, including automation for building and publishing them.
+* This package requires you to follow a handful of steps and read through instructions at least once, please do it, **they are not the exact same as the default VRChat template!**
 
 Once you're all set up, you'll be able to push changes to this repository and have .zip and .unitypackage versions automatically generated, and a listing made which works in the VPM for delivering updates for this package. If you want to make a listing with a variety of packages, check out VRChat's [template-package-listing](https://github.com/vrchat-community/template-package-listing) repo.
 
-## Why this fork?
+## ❓ Why this fork?
 
-* This package requires you to follow a handful of steps and read through instructions at least once, please do it, **they are not the exact same as the default VRChat template!**
-* This fork was made to allow myself and others to make VPM packages without having to spin a new project per package, which is annoying for small, sometimes even single file packages.
 * With this, you can setup a new package in your existing dev project within a minute and get working straight on things without having to import and update various SDKs / dependencies.
+* This fork was made to allow myself and others to make VPM packages without having to spin a new project per package, which is annoying for small, sometimes even single file packages.
 * This also comes with an easy way to theme your "Add to VCC" button colors ! :3
 
 ## ▶ Getting Started
