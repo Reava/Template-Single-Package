@@ -56,5 +56,6 @@ Whenever you make a change to a release - manually publishing it, or manually cr
 ## 🏠 Customizing the Landing Page (Optional)
 
 You can edit the file 'Website/ColorScheme.css' and remove the comments on the theme color section you want to use for non-default buttons
+*If you want to customize your buttons color on your default VRChat template, simply import [ColorScheme.css](https://github.com/Reava/Template-Single-Package/blob/main/Website/ColorScheme.css) to your Website folder, then add the line '<link rel="stylesheet" href="ColorScheme.css">' in the header of the 'Website/index.html' file of your own package!
 
 The action which rebuilds the listing also publishes a landing page. The source for this page is in `Website/index.html`. The automation system uses [Scriban](https://github.com/scriban/scriban) to fill in the objects like `{{ this }}` with information from the latest release's manifest, so it will stay up-to-date with the name, id and description that you provide there. You are welcome to modify this page however you want - just use the existing `{{ template.objects }}` to fill in that info wherever you like. The entire contents of your "Website" folder are published to your GitHub Page each time.
