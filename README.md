@@ -13,7 +13,7 @@ Once you're all set up, you'll be able to push changes to this repository and ha
 
 ## ▶ Getting Started
 
-* Press [![Use This Template](https://user-images.githubusercontent.com/737888/185467681-e5fdb099-d99f-454b-8d9e-0760e5a6e588.png)](https://github.com/vrchat-community/template-package/generate)
+* Press [![Use This Template](https://user-images.githubusercontent.com/737888/185467681-e5fdb099-d99f-454b-8d9e-0760e5a6e588.png)](https://github.com/Reava/Template-Single-Package/generate)
 to start a new GitHub project based on this template.
   * Choose a fitting repository name and description.
   * Set the visibility to 'Public'. You can also choose 'Private' and change it later.
